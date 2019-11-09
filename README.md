@@ -6,3 +6,4 @@ This repository shows some of the codes I implemented for the course Radio Resou
 
 
 * [Frequency band selection](frequency-selection)
+	In this code I analyze two frequency selection strategies using Montecarlo simulation with 200 snapshots in the scenario where there are four frequency bands (2.6 GHz, 2.1 GHz, 1.8 GHz and 900 MHz).
