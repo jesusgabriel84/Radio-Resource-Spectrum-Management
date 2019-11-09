@@ -6,7 +6,13 @@ This repository shows some of the codes I implemented for the course Radio Resou
 
 
 * [Frequency band selection](frequency-selection)
-	In this code I analyze two frequency selection strategies using Montecarlo simulation with 200 snapshots in the scenario where there are four frequency bands (2.6 GHz, 2.1 GHz, 1.8 GHz and 900 MHz).
+	This code analyzes two frequency selection strategies using Montecarlo simulation with 200 snapshots in the scenario where there are four frequency bands (2.6 GHz, 2.1 GHz, 1.8 GHz and 900 MHz).
+
+* [Scheduling and Fairness](scheduling-and-fairness) 
+	In this code the max-min fair scheduling and the proportional fair scheduling as well as the Nash Bargaining resource allocation method are analyzed.
+
+* [Ultra Dense Networks](UDN)
+	In a simulation grid of 45 base stations multiple UEs are distributed randomly and the GADIA (Greedy Asychronous Distributed Interference Avoidance) algorithm is implemented to perform the scheduling of the users in each base station.
 
 
 
