@@ -14,6 +14,9 @@ This repository shows some of the codes I implemented for the course Radio Resou
 * [Ultra Dense Networks](UDN)
 	In a simulation grid of 45 base stations multiple UEs are distributed randomly and the GADIA (Greedy Asychronous Distributed Interference Avoidance) algorithm is implemented to perform the scheduling of the users in each base station.
 
+* [NB-IoT scheduling techniques](nb-iot-scheduling)
+	A literature survey on NB-IoT scheduling techniques, challenges and potential solutions. The aim of this work is to explore the various scheduling techniques proposed in NB-IoT scenarios for both uplink and downlink channel along with existing challenges and potential way out.
+
 
 
 ### Built With
