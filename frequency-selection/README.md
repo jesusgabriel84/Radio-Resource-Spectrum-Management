@@ -45,9 +45,9 @@ After creating the grid I ran a Montecarlo simulation with the following conditi
 
 The simulation is intended to analyze two simple selection strategies:
 
-**1st strategy**: if the user is within the coverage area of 2600 layer then it can select any of the 4 layers randomly, if the user is within the coverage area of 2100 layer then it can select any of the 3layers randomly, if the user is within the coverage area of 1800 layer then it can select any of the 2 layers randomly, and if the user is within the coverage area of 900 layer then it has to select the 900 layer. 
+* **1st strategy**: if the user is within the coverage area of 2600 layer then it can select any of the 4 layers randomly, if the user is within the coverage area of 2100 layer then it can select any of the 3layers randomly, if the user is within the coverage area of 1800 layer then it can select any of the 2 layers randomly, and if the user is within the coverage area of 900 layer then it has to select the 900 layer. 
 
-**2nd strategy**: if the user is within the coverage area of 2600 layer then it should select 2600 layer, if the user is within the coverage area of 2100 layer then it should select 2100 layer, if the user is within the coverage area of 1800 layer then it should select 1800 layer, and finally if the user is within the coverage area of 900 layer then it should select 900 layer.
+* **2nd strategy**: if the user is within the coverage area of 2600 layer then it should select 2600 layer, if the user is within the coverage area of 2100 layer then it should select 2100 layer, if the user is within the coverage area of 1800 layer then it should select 1800 layer, and finally if the user is within the coverage area of 900 layer then it should select 900 layer.
 
 After running the simulation I computed the percentage of users connected to the different layers in each selection strategies scheme:
 
