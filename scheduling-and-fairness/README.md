@@ -11,7 +11,7 @@ have the following:
 
 In the simulation the following parameters are determined:
 
-* Fraction of time to be allocated for each user (\phi).
+* Fraction of time to be allocated for each user.
 * Mean throughput of the users.
 * Aggregate throughput in a cell.
 
@@ -38,7 +38,7 @@ throughput.
 
 ### Plots
 
-Plot of the fraction of time allocated per user (\phi):
+Plot of the fraction of time allocated per user:
 ![Fraction](images/fraction.png)
 
 Plot with the values for mean throughput:
