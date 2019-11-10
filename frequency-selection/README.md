@@ -27,13 +27,31 @@ function [xdim,ydim] = create_hex(ymax,xcoord,ycoord)
 ```
 
 Where:
-* `ymax` : is the long leg of the hexagon
-* `xcoord` : is the coordinates of the center of the hexagon in the 'x axis'
-* `ycoord` : is the coordinates of the center of the hexagon in the 'y axis'
+* `**ymax**` : is the long leg of the hexagon.
+* `**xcoord**` : is the coordinates of the center of the hexagon in the 'x axis'.
+* `**ycoord**` : is the coordinates of the center of the hexagon in the 'y axis'.
 
 The resulting grid is as follows:
 
 ![Grid](images/grid.png)
+
+### Simulation
+After creating the grid I ran a Montecarlo simulation with the following conditions:
+
+* Total number of snapshots is `200`.
+* In each snapshot, `75` users are randomly distributed in each cell.
+
+(These parameters can also be adjusted in the initial parameters of the script)
+
+The simulation is intended to analyze two simple selection strategies:
+
+**1st strategy**: if the user is within the coverage area of 2600 layer then it can select any of the 4 layers randomly, if the user is within the coverage area of 2100 layer then it can select any of the 3layers randomly, if the user is within the coverage area of 1800 layer then it can select any of the 2 layers randomly, and if the user is within the coverage area of 900 layer then it has to select the 900 layer. 
+
+**2nd strategy**: if the user is within the coverage area of 2600 layer then it should select 2600 layer, if the user is within the coverage area of 2100 layer then it should select 2100 layer, if the user is within the coverage area of 1800 layer then it should select 1800 layer, and finally if the user is within the coverage area of 900 layer then it should select 900 layer.
+
+After running the simulation I computed the percentage of users connected to the different layers in each selection strategies scheme:
+
+![Results](images/results.png)
 
 ### Built With
 * [Matlab2018](https://se.mathworks.com/products/matlab.html)
