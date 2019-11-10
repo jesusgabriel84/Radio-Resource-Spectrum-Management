@@ -52,7 +52,7 @@ Plot with the values for aggregate throughput:
 In NOMA (Nonorthogonal Multiple Access) networks it is also considered the utility function, which is a generalized form of the max-min and proportional fair approaches, to achieve the PA (Power Allocation) and fair network resource allocation for the users, but also the weighted sum rate that will provide a certain grade of fairness in the Media-access control (MAC) layer and the Jain’s fairness index comparison that will strike a tradeoff between the sum rate and the fairness of the system, are models implemented in NOMA that could improve the fairness of the system in the problem 1. In addition, there are more sophisticated and intelligent approaches proposed in NOMA to implement a fair PA among the users in the system, which are the Cognitive-Radio-Inspired Power Control, the User Scheduling in Dynamic Cluster/Pair-Based Hybrid MA Networks and the Software-Defined NOMA Network Architecture. 
 
 ### Calculations
-The detailed calculations and results can be found **[here](scheduling-and-fairness.pdf)**.
+The detailed calculations and results can be found **[here](scheduling-and-fairness.pdf)** and the corresponding Matlab script can be found **[here](script/scheduling-and-fairness.m)**. 
 
 ### Built With
 * [Matlab2018](https://se.mathworks.com/products/matlab.html)
