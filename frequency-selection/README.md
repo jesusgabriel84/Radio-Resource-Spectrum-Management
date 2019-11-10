@@ -27,9 +27,9 @@ function [xdim,ydim] = create_hex(ymax,xcoord,ycoord)
 ```
 
 Where:
-* `**ymax**` : is the long leg of the hexagon.
-* `**xcoord**` : is the coordinates of the center of the hexagon in the 'x axis'.
-* `**ycoord**` : is the coordinates of the center of the hexagon in the 'y axis'.
+* **`ymax`** : is the long leg of the hexagon.
+* `xcoord` : is the coordinates of the center of the hexagon in the 'x axis'.
+* `ycoord` : is the coordinates of the center of the hexagon in the 'y axis'.
 
 The resulting grid is as follows:
 
